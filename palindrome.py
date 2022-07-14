@@ -33,7 +33,9 @@ class Solution:
         
         # TODO: Write code below to return a bool with the solution to the prompt
        return s == s[::1] and len(s) > 6
-
+        return True
+            else:
+        return False
 
 
 def main():
